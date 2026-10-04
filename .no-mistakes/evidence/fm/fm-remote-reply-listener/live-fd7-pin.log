@@ -1,0 +1,16 @@
+runner pid=1062731 claimed registration inode=9979776
+-- while polling, before concurrent re-arm: fd 7 per process in the runner tree
+  pid 1062731 (bash): fd7 -> /tmp/fm-live-fd.xJUmJj/parent/state/procevent/remote-reply-ios.source
+  pid 1063068 (bash): fd7 -> <closed>
+  pid 1063119 (bash): fd7 -> <closed>
+  pid 1063297 (fm-remote-job-w): fd7 -> <closed>
+  pid 1063362 (fm-remote-job-w): fd7 -> <closed>
+  pid 1063635 (sleep): fd7 -> <closed>
+  pid 1063730 (): fd7 -> <closed>
+  pid 1063098 (perl): fd7 -> /tmp/fm-live-fd.xJUmJj/parent/state/procevent/remote-reply-ios.source
+-- after concurrent re-arm (registration now inode 9979814): runner fd7 -> /tmp/fm-live-fd.xJUmJj/parent/state/procevent/remote-reply-ios.source (deleted)
+-- after capture+autohandle: note mirrored=1 registration inode=9979796 runner_alive=yes runner fd7 -> /tmp/fm-live-fd.xJUmJj/parent/state/procevent/remote-reply-ios.source
+-- runner output:
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-fd.xJUmJj/parent/state/procevent-inbox/remote-reply-ios.1.result

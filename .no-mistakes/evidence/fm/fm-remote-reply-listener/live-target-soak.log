@@ -1,0 +1,133 @@
+== [target-soak] root=/tmp/fm-copy.V73kpl
+registered: remote-reply-ios (remote-reply)
+armed: remote-reply-ios offset=0
+round 1: claimed=66306:9983331 rearmed=66306:9983407 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 2: claimed=66306:9983369 rearmed=66306:9983417 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 3: claimed=66306:9983382 rearmed=66306:9983415 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 4: claimed=66306:9983396 rearmed=66306:9983430 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 5: claimed=66306:9983397 rearmed=66306:9983463 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 6: claimed=66306:9983422 rearmed=66306:9983410 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 7: claimed=66306:9983394 rearmed=66306:9983461 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 8: claimed=66306:9983426 rearmed=66306:9983408 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 9: claimed=66306:9983422 rearmed=66306:9983473 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 10: claimed=66306:9983450 rearmed=66306:9983414 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 11: claimed=66306:9983462 rearmed=66306:9983488 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 12: claimed=66306:9983466 rearmed=66306:9983525 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 13: claimed=66306:9983476 rearmed=66306:9983543 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 14: claimed=66306:9983494 rearmed=66306:9983545 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 15: claimed=66306:9983462 rearmed=66306:9983555 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 16: claimed=66306:9983508 rearmed=66306:9983568 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 17: claimed=66306:9983528 rearmed=66306:9983586 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 18: claimed=66306:9983526 rearmed=66306:9983511 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 19: claimed=66306:9983539 rearmed=66306:9983540 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 20: claimed=66306:9983547 rearmed=66306:9983462 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 21: claimed=66306:9983550 rearmed=66306:9983536 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 22: claimed=66306:9983571 rearmed=66306:9983547 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 23: claimed=66306:9983581 rearmed=66306:9983612 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 24: claimed=66306:9983580 rearmed=66306:9983626 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 25: claimed=66306:9983650 rearmed=66306:9983590 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+final note mirrored=1
+-- runner output:
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.1.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.2.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.3.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.4.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.5.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.6.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.7.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.8.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.9.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.10.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.11.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.12.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.13.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.14.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.15.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.16.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.17.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.18.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.19.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.20.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.21.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.22.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.23.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.24.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.klmJaV/parent/state/procevent-inbox/remote-reply-ios.25.result
+-- parent state/ios.status:
+   working [key=round-1]: remote note 1
+   working [key=round-2]: remote note 2
+   working [key=round-3]: remote note 3
+   working [key=round-4]: remote note 4
+   working [key=round-5]: remote note 5
+   working [key=round-6]: remote note 6
+   working [key=round-7]: remote note 7
+   working [key=round-8]: remote note 8
+   working [key=round-9]: remote note 9
+   working [key=round-10]: remote note 10
+   working [key=round-11]: remote note 11
+   working [key=round-12]: remote note 12
+   working [key=round-13]: remote note 13
+   working [key=round-14]: remote note 14
+   working [key=round-15]: remote note 15
+   working [key=round-16]: remote note 16
+   working [key=round-17]: remote note 17
+   working [key=round-18]: remote note 18
+   working [key=round-19]: remote note 19
+   working [key=round-20]: remote note 20
+   working [key=round-21]: remote note 21
+   working [key=round-22]: remote note 22
+   working [key=round-23]: remote note 23
+   working [key=round-24]: remote note 24
+   working [key=round-25]: remote note 25
+   done [key=final]: final remote note
+== [target-soak] SUMMARY rounds_delivered=25/25 probe_identity_reuse_rounds=0 listener_lost=0

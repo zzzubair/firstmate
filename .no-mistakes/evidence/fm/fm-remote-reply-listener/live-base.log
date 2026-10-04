@@ -1,0 +1,38 @@
+== [base-fede619] root=/tmp/fm-copy.jMTPkw
+registered: remote-reply-ios (remote-reply)
+armed: remote-reply-ios offset=0
+round 1: claimed=66306:9981553 rearmed=66306:9981591 probe_reused_claimed_identity=1 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 2: claimed=66306:9981573 rearmed=66306:9981603 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 3: claimed=66306:9981577 rearmed=66306:9981606 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 4: claimed=66306:9981583 rearmed=66306:9981611 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 5: claimed=66306:9981585 rearmed=66306:9981617 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+round 6: claimed=66306:9981591 rearmed=66306:9981638 probe_reused_claimed_identity=0 note_mirrored=1 registration_present=yes runner_alive=yes owner=live
+final note mirrored=1
+-- runner output:
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.W9DDE8/parent/state/procevent-inbox/remote-reply-ios.1.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.W9DDE8/parent/state/procevent-inbox/remote-reply-ios.2.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.W9DDE8/parent/state/procevent-inbox/remote-reply-ios.3.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.W9DDE8/parent/state/procevent-inbox/remote-reply-ios.4.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.W9DDE8/parent/state/procevent-inbox/remote-reply-ios.5.result
+   autohandled: remote-reply-ios
+   cannot retire terminal source; it remains registered: remote-reply-ios
+   captured: /tmp/fm-live-rearm.W9DDE8/parent/state/procevent-inbox/remote-reply-ios.6.result
+-- parent state/ios.status:
+   working [key=round-1]: remote note 1
+   working [key=round-2]: remote note 2
+   working [key=round-3]: remote note 3
+   working [key=round-4]: remote note 4
+   working [key=round-5]: remote note 5
+   working [key=round-6]: remote note 6
+   done [key=final]: final remote note
+== [base-fede619] SUMMARY rounds_delivered=6/6 probe_identity_reuse_rounds=1 listener_lost=0
